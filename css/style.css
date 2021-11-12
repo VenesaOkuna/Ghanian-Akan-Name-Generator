@@ -1,0 +1,63 @@
+/* navigation bar */
+
+#header{
+    
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0.1em;
+    left: 0;
+
+    
+}
+
+.navbar ul{
+
+    text-align: right !important;
+    align-items: right !important;
+
+}
+
+.navbar ul li{
+
+    list-style: none;
+    display: inline-block;
+
+}
+
+.navbar ul{
+
+    text-align: left;
+    position: absolute;
+    top: 0.1em;
+    left: 10em;
+
+}
+
+.navbar ul li{
+
+    list-style: none;
+    display: inline-block;
+
+}
+
+.navbar ul li a{
+
+    display: block;
+    text-decoration: none;
+    text-transform: none;
+    color: #CEA380;
+    font-size: 20px;
+    font-family: 'Cantora One', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 20px;
+    transition: all ease 0.5s;
+
+}
+
+.navbar ul li a:hover{
+
+    color: #7b5536;
+   
+}
