@@ -7,7 +7,7 @@
     
     position: absolute;
     height: 100vh;
-    width: 100vw;
+    width: 98vw;
     top: 0.1em;
     left: 0;
 
@@ -72,7 +72,7 @@
     top: 2em;
     left: 2em;
     width: 10em;
-    color: #879c69;
+    color: #268869;
     font-family: 'Cantora One', sans-serif;
     letter-spacing: 1px;
     font-size: 60px;
@@ -118,4 +118,12 @@ span{
 
 .gen:hover{
     color: #879c69;
+}
+
+/* hero image */
+
+.hero{
+    position: absolute;
+    top: 1.7em;
+    right: 1.7em;
 }
