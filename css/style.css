@@ -148,7 +148,7 @@ span{
     position: absolute;
     bottom: 0em;
     left: 19em;
-    color: #268869;
+    color: #fff;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 5px;
@@ -157,6 +157,17 @@ span{
 /* CONTACT PAGE */
 
 /* feedback form */
+
+.logo{
+    position: absolute;
+    top: 0.2em;
+    left: 5em;
+    color: #879c69;
+    font-family: 'Cantora One', sans-serif;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: 600; 
+}
 
 .talk{
     position: absolute;
@@ -171,10 +182,11 @@ span{
 
 
 .feedform{
-width: 30%;
-position: absolute;
-top: 9.5em;
-right: 15.8em;
+    width: 30%;
+    position: absolute;
+    top: 8.5em;
+    right: 18em;
+
 }
 
 /* Bordered form */
@@ -243,5 +255,14 @@ form {
 
   }
 
+  /* hero image for contacts */
+
+  .hero2{
+    position: absolute;
+    top: 9em;
+    left: 8em;
+    width: 15%;
+    height: 15%;
+  }
 
   
