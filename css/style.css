@@ -6,8 +6,8 @@
 #header{
     
     position: absolute;
-    height: 100vh;
-    width: 98vw;
+    height: 98.5vh;
+    width: 98.9vw;
     top: 0.1em;
     left: 0;
 
@@ -33,7 +33,7 @@
     text-align: left;
     position: absolute;
     top: 0em;
-    left: 9.15em;
+    left: 9.7em;
 
 }
 
@@ -107,7 +107,7 @@ span{
     text-decoration: none;
     text-transform: none;
     color: #fbc951;
-    background-color: #7b5536;
+    background-color: #268869;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
@@ -126,4 +126,15 @@ span{
     position: absolute;
     top: 1.7em;
     right: 1.7em;
+}
+
+/* footer */
+
+.footer{
+    background-color: #879c69;
+    width: 98.9vw;
+    height: 10vh;
+    position: absolute;
+    bottom: 0em;
+    left: 0.1em;
 }
