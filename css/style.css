@@ -1,3 +1,6 @@
+
+
+/* LANDING PAGE */
 /* navigation bar */
 
 #header{
@@ -61,3 +64,25 @@
     color: #7b5536;
    
 }
+
+/* welcome message */
+
+.well{
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 10em;
+    color: #879c69;
+    font-family: 'Cantora One', sans-serif;
+    letter-spacing: 1px;
+    font-size: 60px;
+    line-height: 1.1em;
+    font-weight: 400;
+    
+}
+
+span{
+    color: #fbc951;
+    font-family: 'Cantora One', sans-serif;
+}
+
