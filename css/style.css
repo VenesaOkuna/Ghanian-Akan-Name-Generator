@@ -49,9 +49,11 @@ body{
 .navbar ul li a{
 
     display: block;
+    background-color: #879C69;
+    border-radius: 5px;
     text-decoration: none;
     text-transform: none;
-    color: #CEA380;
+    color: #fbc951;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
@@ -63,7 +65,7 @@ body{
 
 .navbar ul li a:hover{
 
-    color: #7b5536;
+    color: #cec458;
    
 }
 
@@ -128,6 +130,7 @@ span{
     position: absolute;
     top: 1.7em;
     right: 1.7em;
+
 }
 
 /* footer */
