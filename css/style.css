@@ -32,7 +32,7 @@
 
     text-align: left;
     position: absolute;
-    top: 0.1em;
+    top: 0em;
     left: 9.3em;
 
 }
@@ -51,7 +51,7 @@
     text-transform: none;
     color: #CEA380;
     font-size: 20px;
-    font-family: 'Cantora One', sans-serif;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
     font-weight: 600;
     padding: 20px;
@@ -89,12 +89,33 @@ span{
     position: absolute;
     top: 13.1em;
     left: 6.1em;
-    width: 23em;
+    width: 25.5em;
     color: #879c69;
-    font-family: 'Cantora One', sans-serif;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
     font-size: 20px;
     line-height: 1.2em;
-    font-weight: 500;
+    font-weight: 600;
 }
 
+.gen{
+    position: absolute;
+    top: 32.5em;
+    border-radius: 10px;
+    left: 8em;
+    display: block;
+    text-decoration: none;
+    text-transform: none;
+    color: #fbc951;
+    background-color: #7b5536;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding: 10px;
+    transition: all ease 0.5s;
+}
+
+.gen:hover{
+    color: #879c69;
+}
