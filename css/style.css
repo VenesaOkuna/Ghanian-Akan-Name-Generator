@@ -161,18 +161,24 @@ span{
 .logo{
     position: absolute;
     top: 0.2em;
-    left: 5em;
+    left: 4.5em;
     color: #879c69;
     font-family: 'Cantora One', sans-serif;
     letter-spacing: 1px;
     font-size: 40px;
     font-weight: 600; 
 }
+b{
+    color: #879c69;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;   
+}
 
 .talk{
     position: absolute;
     top: 0em;
-    color: #879c69;
+    color: #268869;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
     font-size: 40px;
