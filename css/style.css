@@ -1,4 +1,6 @@
-
+body{
+    background-color: rgba(241, 245, 243, 0.961);
+}
 
 /* LANDING PAGE */
 /* navigation bar */
@@ -33,7 +35,7 @@
     text-align: left;
     position: absolute;
     top: 0em;
-    left: 9.7em;
+    left: 9.5em;
 
 }
 
@@ -137,4 +139,14 @@ span{
     position: absolute;
     bottom: 0em;
     left: 0.1em;
+}
+
+.ftext{
+    position: absolute;
+    bottom: 0em;
+    left: 19em;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
 }
