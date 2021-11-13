@@ -32,7 +32,19 @@
 
 ### Installation Process
 
-[Go Back to the top](# Akan Name Generator)
+[Go Back to the top](#Akan Name Generator)
+
+## Site Screenshot
+
+Here's an image of the landing page :
+
+![Drag Racing](images/landing%20page%20group.png)
+
+
+
+## Live Link
+
+here is the link to the site https://venesaokuna.github.io/Ghanian-Akan-Name-Generator/
 
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
@@ -45,7 +57,7 @@
 ## Reference
 * Materialize CSS
 
-[Go Back to the top](# Akan Name Generator)
+[Go Back to the top](#Akan Name Generator)
 
 
 ## Licence
@@ -72,7 +84,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Go Back to the top](# Akan Name Generator)
+[Go Back to the top](#Akan Name Generator)
 
 
 ## Authors Info
@@ -84,4 +96,4 @@ Github - [Venesa Atieno](https://github.com/VenesaOkuna)
 
 Behance - [Venesa Atieno](https://www.behance.net/venesaatieno)
 
-[Go Back to the top](# Akan Name Generator)
+[Go Back to the top](#Akan Name Generator)
