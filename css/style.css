@@ -156,6 +156,7 @@ span{
 
 /* CONTACT PAGE */
 
+
 /* feedback form */
 
 .logo{
@@ -272,3 +273,47 @@ form {
   }
 
   
+  /* GENERATE PAGE */
+
+
+/* explanation text */
+.exp{
+  position: absolute;
+  top: 11em;
+  left:22em;
+  width: 25.5em;
+  border: 8px outset #fbc951;
+  color: #879c69;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.2em;
+  font-weight: 900;
+}
+
+/* gender */
+
+#gender{
+position: absolute;
+top: 22rem;
+left: 27.5rem;
+padding: 1em;
+border: 8px outset #fbc951;
+background-color: #fff;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+color: #879C69;
+}
+
+#month{
+position: absolute;
+top: 22rem;
+left: 37.5rem;
+padding: 1em;
+border: 8px outset #fbc951;
+background-color: #fff;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+color: #879C69;
+}

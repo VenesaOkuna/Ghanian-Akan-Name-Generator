@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- css and bootsrap links -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
     <link rel="stylesheet" href="css/style.css">
 
     <!-- google font links -->
@@ -40,11 +40,52 @@
             </nav>
 
         </section>  
+
+        <!-- explanation text -->
+
+        <div class="exp"><p>PLEASE INPUT DATE OF BIRTH AND GENDER</p></div>
+
+        <!-- AKAN GENERATOR FORM -->
         
         <div id="generator">
 
+            <form method="post" class="akan-generator">
 
-            
+
+        <!-- gender selection input -->
+                <p>
+                    <select name="gender" id="gender">
+                        <option value="" selected>gender</option>
+                        <option value="January">Male</option>
+                        <option value="February">Female</option>
+                    </select>
+                </p>
+
+
+        <!-- birthday selection input -->
+
+        <!-- month -->
+                <p>
+                      <select name="month" id="month">
+                        <option value="" selected>month</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                </p>
+
+             
+            </form>
+
         </div>
 
 
