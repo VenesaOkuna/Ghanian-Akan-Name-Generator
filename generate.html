@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cantora+One&family=Poppins:wght@200&display=swap" rel="stylesheet">
     
     <title>AKAN NAME GENERATOR</title>
-    <script src="js/index.js"></script>
+    
 
 </head>
 
@@ -27,7 +27,7 @@
         <section id="header">
          
             <nav >
-                <div class="navbar" style="position: absolute; display: inline-block; width: 38.5rem; top: 2em; right: 7em;">
+                <div class="navbar" style="position: absolute; display: inline-block; width: 50em; top: 3.5em; right: 1em;">
         
                     <ul>
                         <li><a href="index.html">HOME</a></li>
@@ -40,98 +40,100 @@
 
             </nav>
 
-            <div class="logo"><p><span>A</span>N G</p></div>
+            <div class="logo"><p><span>A</span>NG</p></div>
 
         </section>  
 
-        <!-- explanation text -->
 
-        <div class="exp"><p>PLEASE INPUT DATE OF BIRTH AND GENDER</p></div>
+        <div class="generator"></div>
+        <div class="exp"><p>Please input date of birth and gender..</p></div>
 
-        <!-- AKAN GENERATOR FORM -->
+        <table>
+
+            <tr>
+
+            <td>
+            
+            <form name=form>
+
         
-        <div id="generator"></div>
+            <table >
+            <tr><td> 
+            <tr><td id="month" style:align=center>
+            <select name="month">
+            <option value="" selected>Month
+            <option value="January">Jan
+            <option value="February">Feb
+            <option value="March">Mar
+            <option value="April">Apr
+            <option value="May">May
+            <option value="June">Jun
+            <option value="July">Jul
+            <option value="August">Aug
+            <option value="September">Sep
+            <option value="October">Oct
+            <option value="November">Nov
+            <option value="December">Dec
+            </select>
+            </td>
 
-            <form method="post" class="akan-generator">
+            <td id="gender" id="gender" type="text" required>
+                <select name="gender">
+                <option value="" selected>gender
+                <option value="male"> male     
+                <option value="female"> female
+                
+            </td>
 
+            <td id="name" class="date" >
+            <select name="day">
+            <option value="" selected>Day
+            <option value="1">01
+            <option value="2">02
+            <option value="3">03
+            <option value="4">04
+            <option value="5">05
+            <option value="6">06
+            <option value="7">07
+            <option value="8">08
+            <option value="9">09
+            <option value="10">10
+            <option value="11">11
+            <option value="12">12
+            <option value="13">13
+            <option value="14">14
+            <option value="15">15
+            <option value="16">16
+            <option value="17">17
+            <option value="18">18
+            <option value="19">19
+            <option value="20">20
+            <option value="21">21
+            <option value="22">22
+            <option value="23">23
+            <option value="24">24
+            <option value="25">25
+            <option value="26">26
+            <option value="27">27
+            <option value="28">28
+            <option value="29">29
+            <option value="30">30
+            <option value="31">31
+            </select>
+            </td>
 
-        <!-- gender selection input -->
-                <p>
-                    <select name="gender" id="gender" required>
-                        <option value="" selected>gender</option>
-                        <option value="January">Male</option>
-                        <option value="February">Female</option>
-                    </select>
-                </p>
-
-
-        <!-- birthday selection input -->
-
-        <!-- month -->
-                <p>
-                      <select name="month" id="month">
-                        <option value="" selected>month</option>
-                        <option value="January">January</option>
-                        <option value="February">February</option>
-                        <option value="March">March</option>
-                        <option value="April">April</option>
-                        <option value="May">May</option>
-                        <option value="June">June</option>
-                        <option value="July">July</option>
-                        <option value="August">August</option>
-                        <option value="September">September</option>
-                        <option value="October">October</option>
-                        <option value="November">November</option>
-                        <option value="December">December</option>
-                    </select>
-                </p>
-
-
-        <!-- date -->
-        <p>
-            <select name="date" id="date" required>
-              <option value="" selected>Date</option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
-              <option value="15">15</option>
-              <option value="16">16</option>
-              <option value="17">17</option>
-              <option value="18">18</option>
-              <option value="19">19</option>
-              <option value="20">20</option>
-              <option value="21">21</option>
-              <option value="22">22</option>
-              <option value="23">23</option>
-              <option value="24">24</option>
-              <option value="25">25</option>
-              <option value="26">26</option>
-              <option value="27">27</option>
-              <option value="28">28</option>
-              <option value="29">29</option>
-              <option value="30">30</option>
-              <option value="31">31</option>             
-          </select>
-        </p>
-
-        <!-- year -->
-        <input id="year" type="number" min="1900" max="2099" step="1" value="19" size=4 maxlength=4 required/>
-
-             
+            <td>
+            <input id="year" type=text name=year value="19" size=4 maxlength=4>
+            </td></tr>
+            </table><p>
+            <input type=button id="results" value="results" onClick="calculate()">
+            
             </form>
-
-        
+            
+            </td>
+            </tr>
+            </table>
+            
 
 
 
@@ -146,7 +148,7 @@
                 </div>
         
         
-        
+                <script src="js/index.js"></script>
         </body>
         
         </html>

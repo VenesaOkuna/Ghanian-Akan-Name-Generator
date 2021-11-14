@@ -1,5 +1,7 @@
 body{
     background-color: rgba(241, 245, 243, 0.961);
+    content: '';
+    
 }
 
 /* LANDING PAGE */
@@ -15,6 +17,8 @@ body{
 
     
 }
+
+
 
 .navbar ul{
 
@@ -34,8 +38,8 @@ body{
 
     text-align: left;
     position: absolute;
-    top: 0em;
-    left: 9.5em;
+    top: 0.3em;
+    left: 10em;
 
 }
 
@@ -73,8 +77,8 @@ body{
 
 .well{
     position: absolute;
-    top: 2em;
-    left: 2em;
+    top: 1.8em;
+    left: 3em;
     width: 10em;
     color: #268869;
     font-family: 'Cantora One', sans-serif;
@@ -91,8 +95,8 @@ span{
 
 .akantext{
     position: absolute;
-    top: 13.1em;
-    left: 6.1em;
+    top: 12.5em;
+    left: 9.1em;
     width: 25.5em;
     color: #879c69;
     font-family: 'Poppins', sans-serif;
@@ -106,7 +110,7 @@ span{
     position: absolute;
     top: 32.5em;
     border-radius: 10px;
-    left: 8em;
+    left: 12em;
     display: block;
     text-decoration: none;
     text-transform: none;
@@ -128,8 +132,8 @@ span{
 
 .hero{
     position: absolute;
-    top: 1.7em;
-    right: 1.7em;
+    top: 1.4em;
+    right: 3.0em;
 
 }
 
@@ -161,12 +165,12 @@ span{
 
 .logo{
     position: absolute;
-    top: 0.2em;
-    left: 4.5em;
+    top: 0em;
+    left: 2.5em;
     color: #879c69;
-    font-family: 'Cantora One', sans-serif;
-    letter-spacing: 1px;
-    font-size: 40px;
+    font-family: ' Poppins', sans-serif;
+    letter-spacing: 10px;
+    font-size: 70px;
     font-weight: 600; 
 }
 b{
@@ -191,7 +195,7 @@ b{
 .feedform{
     width: 30%;
     position: absolute;
-    top: 8.5em;
+    top: 10.5em;
     right: 15em;
 
 }
@@ -203,7 +207,7 @@ form {
   
   /* Full-width inputs */
   input[type=text], input[type=password] {
-    width: 30em;
+    width: 34em;
     height: 2.5em;
     padding: 12px 20px;
     margin: 8px 0;
@@ -267,7 +271,7 @@ form {
   .hero2{
     position: absolute;
     top: 8.5em;
-    left: 11em;
+    left: 17em;
     width: 15%;
     height: 15%;
   }
@@ -277,23 +281,22 @@ form {
 
 /* whole box containing input */
 
-#generator{
+.generator{
   position: absolute;
   border: 8px inset #268869;
   width: 40em;
-  height: 17em;
-  right: 20.78em;
-  top: 11em;
+  height: 12em;
+  right: 26.78em;
+  top: 15em;
 }
 
 
 /* explanation text */
 .exp{
   position: absolute;
-  top: 11em;
-  left:22em;
+  top: 9em;
+  left:19em;
   width: 25.5em;
-  border: 8px outset #fbc951;
   color: #879c69;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 1px;
@@ -307,8 +310,10 @@ form {
 
 #gender{
 position: absolute;
-top: 22rem;
-left: 27.5rem;
+top: 16.5rem;
+left: 32rem;
+width: 27.8em;
+text-align: center;
 padding: 1em;
 border: 8px outset #fbc951;
 background-color: #fff;
@@ -316,11 +321,15 @@ font-family: 'Poppins', sans-serif;
 font-weight: 600;
 color: #879C69;
 }
+
+/* Date of Birth */
 
 #month{
 position: absolute;
 top: 22rem;
-left: 35.78rem;
+left: 31.95rem;
+text-align: center;
+width: 9em;
 padding: 1em;
 border: 8px outset #fbc951;
 background-color: #fff;
@@ -329,13 +338,15 @@ font-weight: 600;
 color: #879C69;
 }
 
-#date{
+.date{
 position: absolute;
 top: 22rem;
-left: 45.1rem;
+left: 44.5rem;
+text-align: center;
+width: 7em;
 padding: 1em;
 border: 8px outset #fbc951;
-background-color: #fff;
+background-color: rgb(255, 255, 255);
 font-family: 'Poppins', sans-serif;
 font-weight: 600;
 color: #879C69;
@@ -343,12 +354,34 @@ color: #879C69;
 
 #year{
 position: absolute;
-top: 22rem;
-left: 51.75rem;
+width: 9em;
+height: 5.185em;
+top: 21.55rem;
+left: 55.2rem;
 padding: 1em;
 border: 8px outset #fbc951;
 background-color: #fff;
 font-family: 'Poppins', sans-serif;
 font-weight: 600;
 color: #879C69;
+}
+
+/* results button */
+
+#results{
+position: absolute;
+width: 10em;
+top: 30rem;
+left: 43rem;
+padding: 1em;
+border: 8px outset #268869;
+background-color: #268869;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+color: #fff;
+}
+
+#results:hover{
+  color: #fbc951;
+  border: 8px inset #268869;
 }
