@@ -3,6 +3,18 @@ body{
     content: '';
     
 }
+/* background image */
+
+.three{
+
+  background-image: url( https://wallpapercave.com/wp/wp9493791.jpg);
+  background-size: cover;
+  
+  
+ 
+}
+
+
 
 /* LANDING PAGE */
 /* navigation bar */
@@ -271,7 +283,7 @@ form {
   .hero2{
     position: absolute;
     top: 8.5em;
-    left: 17em;
+    left: 15em;
     width: 15%;
     height: 15%;
   }
@@ -286,7 +298,7 @@ form {
   border: 8px inset #268869;
   width: 40em;
   height: 12em;
-  right: 26.78em;
+  right: 24em;
   top: 15em;
 }
 
@@ -294,13 +306,17 @@ form {
 /* explanation text */
 .exp{
   position: absolute;
-  top: 9em;
-  left:19em;
+  top: 10em;
+  left:25em;
   width: 25.5em;
-  color: #879c69;
-  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  font-family: 'Cantora One', sans-serif;
   letter-spacing: 1px;
+  text-shadow: black;
+ 
   font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.633);
+  border: inset 0.1px black;
   text-align: center;
   line-height: 1.2em;
   font-weight: 900;
