@@ -5,18 +5,32 @@
 
 ## Table of Content
 
-+ [Description](#description)
-+ [Installation Requirement](#Installation)
-+ [Technology Used](#technology-used)
-+ [Reference](#reference)
-+ [Licence](#licence)
-+ [Authors Info](#author-Info)
+- [Akan Name Generator](#akan-name-generator)
+        - [By Venesa Atieno](#by-venesa-atieno)
+    - [Akan name generator based on the day and date you were born.](#akan-name-generator-based-on-the-day-and-date-you-were-born)
+  - [Table of Content](#table-of-content)
+  - [Description](#description)
+  - [Installation](#installation)
+    - [Requirements](#requirements)
+    - [Installation Process](#installation-process)
+  - [Site Screenshot](#site-screenshot)
+  - [Behavior Driven Development](#behavior-driven-development)
+  - [Live Link](#live-link)
+  - [Technology Used](#technology-used)
+  - [Reference](#reference)
+  - [Licence](#licence)
+  - [Authors Info](#authors-info)
 
 
 ## Description
 <p>A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. </p>
 <br>
-<p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
+<p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds 
+
+
+
+to the day in the week they were born. </p>
+
 
 
 ## Installation
@@ -32,13 +46,38 @@
 
 ### Installation Process
 
-[Go Back to the top](#Akan Name Generator)
+[Go Back to the top](#Akan-Name-Generator)
 
 ## Site Screenshot
 
-Here's an image of the landing page :
+Here's an image of the design of the site :
 
-![Drag Racing](images/landing%20page%20group.png)
+Landing page:
+![landing page](images/landing%20page%20group.png)
+
+Generate page:
+![generate page](images/GENERATE%20PAGE.png)
+
+Contact Us Page:
+![contact us page](images/CONTACT%20PAGE.png)
+
+## Behavior Driven Development
+
+Specification: Akan Name Generator
+
+When date of birth and gender are inputted in a form to generate akan day names
+Then it is calculated to get day born which is equated to an akan name depending on the gender.
+
+When a date is keyed in wrongly
+Then an alert message is sent to the user.
+
+When gender selected is male
+Then Akan name generated is for male users.
+And the day of birth is also generated and displayed to the user.
+
+When gender selected is female
+Then Akan name generated is for female users.
+And the day of birth is also generated and displayed to the user.
 
 
 
@@ -46,7 +85,9 @@ Here's an image of the landing page :
 
 here is the link to the site https://venesaokuna.github.io/Ghanian-Akan-Name-Generator/
 
+
 ## Technology Used
+
 * HTML - which was used to build the structure of the pages.
 
 * CSS - which was used to style the pages incuding the left aside navigation bar
@@ -57,7 +98,7 @@ here is the link to the site https://venesaokuna.github.io/Ghanian-Akan-Name-Gen
 ## Reference
 * Materialize CSS
 
-[Go Back to the top](#Akan Name Generator)
+[Go Back to the top](#Akan-Name-Generator)
 
 
 ## Licence
@@ -84,10 +125,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Go Back to the top](#Akan Name Generator)
+[Go Back to the top](#Akan-Name-Generator)
 
 
 ## Authors Info
+
+I am self-driven and passionate about Software development and all types of art, especially camera works. I take each day as a learning opportunity and seek to develop new skills .
 
 
 Linked - [Venesa Atieno](www.linkedin.com/in/venesa-atieno)
@@ -96,4 +139,4 @@ Github - [Venesa Atieno](https://github.com/VenesaOkuna)
 
 Behance - [Venesa Atieno](https://www.behance.net/venesaatieno)
 
-[Go Back to the top](#Akan Name Generator)
+[Go Back to the top](#Akan-Name-Generator)
