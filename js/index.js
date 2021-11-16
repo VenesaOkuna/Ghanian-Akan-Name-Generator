@@ -9,7 +9,8 @@ month = document.form.month.options[month].value;
 day = document.form.day.selectedIndex;
 day = document.form.day.options[day].value;
 year = document.form.year.value;
-const gender = document.getElementById('gender').value;
+gender = document.form.gender.selectedIndex;
+gender = document.form.gender.options[gender].value;
 
 
 // date containers
