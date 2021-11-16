@@ -38,7 +38,7 @@ if ( month <=0 || month >12){
 
 
 
- if (year<100) year="19" + whenBorn.getYear();
+if (year<100) year="19" + whenBorn.getYear();
 else year=whenBorn.getYear();
 
 // days of the week with indexes
@@ -56,6 +56,8 @@ weekday[6]="Saturday";
 
 // akan names arrays
 
+// female
+
 var femaleNames = new Array(6);
 
 femaleNames[0]="Akosua";
@@ -65,6 +67,8 @@ femaleNames[3]="Akua";
 femaleNames[4]="Yaa";
 femaleNames[5]="Afua";
 femaleNames[6]="Ama";
+
+// male
 
 var maleNames = new Array(6);
 
@@ -85,10 +89,6 @@ else { generateName = femaleNames[thatDay]
 // generateName = femaleNames[thatDay];
 
 
-
-
-
-
 if (day != date) alert("Sorry!  That appears to be an invalid date!");
 else {
 dayborn = generateName;
@@ -98,4 +98,3 @@ alert("So Awesome, Your Akan name is " + dob);
 
    }
 }
-// End -->

@@ -291,110 +291,115 @@ form {
   
   /* GENERATE PAGE */
 
-/* whole box containing input */
+ /* whole box containing input */
 
-.generator{
-  position: absolute;
-  border: 8px inset #268869;
-  width: 40em;
-  height: 12em;
-  right: 24em;
-  top: 15em;
-}
+ .generator{
+   position: absolute;
+   border: 8px inset #268869;
+   width: 40em;
+   height: 12em;
+   right: 24em;
+   top: 15em;
+  }
 
 
-/* explanation text */
-.exp{
-  position: absolute;
-  top: 10em;
-  left:25em;
-  width: 25.5em;
-  color: #ffffff;
-  font-family: 'Cantora One', sans-serif;
-  letter-spacing: 1px;
-  text-shadow: black;
- 
-  font-size: 20px;
-  background-color: rgba(0, 0, 0, 0.633);
-  border: inset 0.1px black;
-  text-align: center;
-  line-height: 1.2em;
-  font-weight: 900;
-}
+ /* explanation text */
+ .exp{
+   position: absolute;
+   top: 10em;
+   left:25em;
+   width: 25.5em;
+   color: #ffffff;
+   font-family: 'Cantora One', sans-serif;
+   letter-spacing: 1px;
+   text-shadow: black;
+   font-size: 20px;
+   background-color: rgba(0, 0, 0, 0.633);
+   border: inset 0.1px black;
+   text-align: center;
+   line-height: 1.2em;
+   font-weight: 900;
+  }
 
 /* gender */
 
-#gender{
-position: absolute;
-top: 16.5rem;
-left: 32rem;
-width: 27.8em;
-text-align: center;
-padding: 1em;
-border: 8px outset #fbc951;
-background-color: #fff;
-font-family: 'Poppins', sans-serif;
-font-weight: 600;
-color: #879C69;
-}
+ #gender{
+   position: absolute;
+   top: 16.5rem;
+   left: 32rem;
+   width: 27.8em;
+   text-align: center;
+   padding: 1em;
+   border: 8px outset #fbc951;
+   background-color: #fff;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   color: #879C69;
+  }
 
-/* Date of Birth */
+ /* Date of Birth */
 
-#month{
-position: absolute;
-top: 22rem;
-left: 31.95rem;
-text-align: center;
-width: 9em;
-padding: 1em;
-border: 8px outset #fbc951;
-background-color: #fff;
-font-family: 'Poppins', sans-serif;
-font-weight: 600;
-color: #879C69;
-}
+ /* month input */
+
+ #month{
+   position: absolute;
+   top: 22rem;
+   left: 31.95rem;
+   text-align: center;
+   width: 9em;
+   padding: 1em;
+   border: 8px outset #fbc951;
+   background-color: #fff;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   color: #879C69;
+  }
+
+  /* day input */
 
 .date{
-position: absolute;
-top: 22rem;
-left: 44.5rem;
-text-align: center;
-width: 7em;
-padding: 1em;
-border: 8px outset #fbc951;
-background-color: rgb(255, 255, 255);
-font-family: 'Poppins', sans-serif;
-font-weight: 600;
-color: #879C69;
+ position: absolute;
+ top: 22rem;
+ left: 44.5rem;
+ text-align: center;
+ width: 7em;
+ padding: 1em;
+ border: 8px outset #fbc951;
+ background-color: rgb(255, 255, 255);
+ font-family: 'Poppins', sans-serif;
+ font-weight: 600;
+ color: #879C69;
 }
 
+/* year input */
+
 #year{
-position: absolute;
-width: 9em;
-height: 5.185em;
-top: 21.55rem;
-left: 55.2rem;
-padding: 1em;
-border: 8px outset #fbc951;
-background-color: #fff;
-font-family: 'Poppins', sans-serif;
-font-weight: 600;
-color: #879C69;
+ position: absolute;
+ width: 9em;
+ height: 5.185em;
+ top: 21.55rem;
+ left: 55.2rem;
+ padding: 1em;
+ border: 8px outset #fbc951;
+ background-color: #fff;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 600;
+ color: #879C69;
 }
 
 /* results button */
 
 #results{
-position: absolute;
-width: 10em;
-top: 30rem;
-left: 43rem;
-padding: 1em;
-border: 8px outset #268869;
-background-color: #268869;
-font-family: 'Poppins', sans-serif;
-font-weight: 600;
-color: #fff;
+ position: absolute;
+ width: 10em;
+ top: 30rem;
+ left: 43rem;
+ padding: 1em;
+ border: 8px outset #268869;
+ background-color: #268869;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 600;
+ color: #fff;
 }
 
 #results:hover{
